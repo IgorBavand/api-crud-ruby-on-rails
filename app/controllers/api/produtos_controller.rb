@@ -1,4 +1,4 @@
-class Api::ProdutosController < ApplicationController
+class ProdutosController < ApplicationController
   before_action :set_produto, only: %i[ show update destroy ]
 
   # GET /produtos
